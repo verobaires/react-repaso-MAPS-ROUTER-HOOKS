@@ -64,6 +64,10 @@
     justify-content: center;
     
   }
+
+  .contenedorImgOwoko, .contenedorIframeOwoko{
+      text-align: center;
+  }
   
   .ImagenOwoko{
     width: 80%;  
@@ -101,7 +105,9 @@
       &:nth-child(1){
         width: 30vw;
       }
-      
+      /* &:nth-child(2){
+        width: 30vw;
+      } */
     }
   
     .contenedorImgOwoko, .contenedorIframeOwoko{

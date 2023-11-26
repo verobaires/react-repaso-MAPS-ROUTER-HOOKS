@@ -16,7 +16,9 @@ function Sucursales() {
     const expandir = (itemId, tipo) => {
         setMostrar(
             (comprimir) => (
-                { ...comprimir, [itemId]: comprimir[itemId] === tipo ? null : tipo, }));
+                { ...comprimir, [itemId]
+                    :comprimir[itemId] === tipo ? null 
+                    : tipo, }));
     };
     return (
         <section className='ContenedorPpal'>
