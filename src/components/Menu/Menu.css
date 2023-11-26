@@ -1,0 +1,17 @@
+.listaMenu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;  
+    height: 2rem;
+    align-items: center;
+}
+
+.listaMenu a{
+    color: rgb(238, 219, 219);
+    text-decoration: none;
+}
+
+.bgMenu{
+    background-color: #414141;
+    border-radius: 5px;
+}
